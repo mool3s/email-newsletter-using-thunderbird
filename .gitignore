@@ -1,0 +1,42 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.bak
+*.log
+*.cache
+
+# Personal Data
+# Uncomment these if you want to exclude your actual subscriber data
+# data/*-actual.csv
+# data/production-*.csv
+
+# Build and Distribution
+dist/
+build/
+*.zip
+
+# Email Tracking
+tracking/
+analytics/
+
+# Backup Files
+backup/
+*.backup

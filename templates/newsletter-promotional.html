@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Promotion</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .banner {
+            background-color: #ff6b6b;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 30px 20px;
+        }
+        .promo-box {
+            background-color: #fff3cd;
+            border: 2px dashed #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .promo-code {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e74c3c;
+            letter-spacing: 2px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #e74c3c;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .features {
+            display: table;
+            width: 100%;
+            margin: 20px 0;
+        }
+        .feature {
+            display: table-cell;
+            width: 33.33%;
+            padding: 10px;
+            text-align: center;
+        }
+        .feature img {
+            width: 60px;
+            height: 60px;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>{{Company}}</h1>
+        </div>
+        
+        <div class="banner">
+            🎉 EXCLUSIVE OFFER FOR {{FirstName}}! 🎉
+        </div>
+        
+        <div class="content">
+            <h2 style="text-align: center; color: #667eea;">Special Offer Just For You!</h2>
+            
+            <p>Hi {{FirstName}},</p>
+            
+            <p>We have something special for our valued customers in {{City}}! As a thank you for your loyalty, we're offering you an exclusive discount.</p>
+            
+            <div class="promo-box">
+                <p style="margin: 0; font-size: 16px;">Use promo code:</p>
+                <p class="promo-code">{{PromoCode}}</p>
+                <p style="margin: 0;">Get {{Discount}}% OFF your next purchase!</p>
+            </div>
+            
+            <p><strong>This offer is valid until {{ExpiryDate}}</strong></p>
+            
+            <center>
+                <a href="{{WebsiteURL}}" class="button">SHOP NOW</a>
+            </center>
+            
+            <h3>Why Choose Us?</h3>
+            <div class="features">
+                <div class="feature">
+                    <p style="font-size: 40px; margin: 10px 0;">🚚</p>
+                    <p><strong>Fast Shipping</strong></p>
+                    <p style="font-size: 12px;">Delivered to {{City}}</p>
+                </div>
+                <div class="feature">
+                    <p style="font-size: 40px; margin: 10px 0;">✓</p>
+                    <p><strong>Quality Guaranteed</strong></p>
+                    <p style="font-size: 12px;">100% Satisfaction</p>
+                </div>
+                <div class="feature">
+                    <p style="font-size: 40px; margin: 10px 0;">💬</p>
+                    <p><strong>24/7 Support</strong></p>
+                    <p style="font-size: 12px;">We're here to help</p>
+                </div>
+            </div>
+            
+            <p>Don't miss out on this exclusive opportunity, {{FirstName}}!</p>
+            
+            <p>Best regards,<br>
+            The {{Company}} Team</p>
+        </div>
+        
+        <div class="footer">
+            <p>{{Company}} | {{Address}} | {{City}}, {{State}} {{ZIP}}</p>
+            <p>Email: {{Email}} | Phone: {{Phone}}</p>
+            <p><a href="#">Unsubscribe</a> | <a href="#">Update Preferences</a></p>
+        </div>
+    </div>
+</body>
+</html>
