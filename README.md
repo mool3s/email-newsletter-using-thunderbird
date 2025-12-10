@@ -37,6 +37,11 @@ Email-Newsletter-using-Thunderbird/
 
 ## 🚀 Quick Start
 
+### ⚡ New User? Start Here!
+
+**Want to send your first newsletter in 10 minutes?**  
+👉 Follow the **[Quick Start Guide](QUICKSTART.md)** 👈
+
 ### Prerequisites
 
 - Mozilla Thunderbird (latest version)
@@ -65,6 +70,8 @@ Email-Newsletter-using-Thunderbird/
    - Open one of the templates in `templates/` folder
    - Use the corresponding CSV file from `data/` folder
    - Follow the [Usage Guide](docs/USAGE-GUIDE.md)
+
+**Detailed Instructions:** See [Setup Guide](docs/SETUP-GUIDE.md) for step-by-step installation help
 
 ## 📧 Available Templates
 
@@ -97,13 +104,20 @@ An elegant template ideal for:
 
 ## 📖 Documentation
 
-Comprehensive guides are available in the `docs/` folder:
+### Getting Started Guides
+- **[Quick Start](QUICKSTART.md)** ⚡ - Send your first newsletter in 10 minutes
+- **[Setup Guide](docs/SETUP-GUIDE.md)** 🔧 - Complete installation and configuration
+- **[Usage Guide](docs/USAGE-GUIDE.md)** 📧 - Step-by-step sending instructions
 
-- **[Setup Guide](docs/SETUP-GUIDE.md)** - Complete installation and configuration instructions
-- **[Usage Guide](docs/USAGE-GUIDE.md)** - Step-by-step instructions for sending newsletters
-- **[Template Guide](docs/TEMPLATE-GUIDE.md)** - How to create and customize HTML templates
-- **[Best Practices](docs/BEST-PRACTICES.md)** - Email marketing tips and strategies
-- **[FAQ](docs/FAQ.md)** - Answers to common questions
+### Customization & Best Practices
+- **[Template Guide](docs/TEMPLATE-GUIDE.md)** 🎨 - Create and customize HTML templates
+- **[Best Practices](docs/BEST-PRACTICES.md)** 💡 - Email marketing tips and strategies
+- **[Examples](examples/README.md)** 📋 - Real-world campaign examples
+
+### Reference & Help
+- **[FAQ](docs/FAQ.md)** ❓ - Answers to common questions
+- **[Project Structure](PROJECT-STRUCTURE.md)** 📁 - Understanding file organization
+- **[Contributing](CONTRIBUTING.md)** 🤝 - How to contribute
 
 ## 💡 How It Works
 
