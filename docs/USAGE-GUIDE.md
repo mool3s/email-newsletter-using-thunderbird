@@ -210,7 +210,7 @@ Make your subject lines more engaging:
 - Keep clean sender reputation
 
 ### Formatting Issues
-- Use inline CSS instead of CSS in &lt;style&gt; tags
+- Use inline CSS instead of CSS in <style> tags
 - Test in multiple email clients
 - Avoid advanced CSS features
 - Use HTML tables for layout
