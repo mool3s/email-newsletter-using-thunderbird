@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+        }
+        .header {
+            background-color: #34495e;
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-family: 'Arial', sans-serif;
+        }
+        .invitation-banner {
+            background: linear-gradient(to right, #f39c12, #e67e22);
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .event-details {
+            background-color: #ecf0f1;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .event-details h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .detail-item {
+            margin: 10px 0;
+            padding: 8px 0;
+        }
+        .detail-item strong {
+            color: #2c3e50;
+            display: inline-block;
+            width: 100px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #27ae60;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            font-family: Arial, sans-serif;
+        }
+        .rsvp-section {
+            text-align: center;
+            background-color: #fff9e6;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .footer {
+            background-color: #34495e;
+            color: #bdc3c7;
+            padding: 25px;
+            text-align: center;
+            font-size: 13px;
+        }
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>You're Invited!</h1>
+        </div>
+        
+        <div class="invitation-banner">
+            📅 {{EventName}}
+        </div>
+        
+        <div class="content">
+            <p style="font-size: 18px;">Dear {{FirstName}} {{LastName}},</p>
+            
+            <p>We are delighted to invite you to an exclusive event hosted by {{Company}}. This special occasion promises to be an unforgettable experience!</p>
+            
+            <div class="event-details">
+                <h3>Event Details</h3>
+                <div class="detail-item">
+                    <strong>Event:</strong> {{EventName}}
+                </div>
+                <div class="detail-item">
+                    <strong>Date:</strong> {{EventDate}}
+                </div>
+                <div class="detail-item">
+                    <strong>Time:</strong> {{EventTime}}
+                </div>
+                <div class="detail-item">
+                    <strong>Venue:</strong> {{VenueName}}
+                </div>
+                <div class="detail-item">
+                    <strong>Address:</strong> {{VenueAddress}}, {{City}}, {{State}}
+                </div>
+            </div>
+            
+            <h3>What to Expect:</h3>
+            <ul>
+                <li>Networking opportunities with industry leaders</li>
+                <li>Insightful presentations and workshops</li>
+                <li>Complimentary refreshments and meals</li>
+                <li>Exclusive giveaways and prizes</li>
+            </ul>
+            
+            <div class="rsvp-section">
+                <h3 style="margin-top: 0; color: #e67e22;">Reserve Your Spot Today!</h3>
+                <p>Spaces are limited. Please confirm your attendance by {{RSVPDeadline}}</p>
+                <a href="{{RSVPURL}}" class="button">RSVP NOW</a>
+                <p style="font-size: 14px; margin-top: 15px;">Confirmation Code: {{ConfirmationCode}}</p>
+            </div>
+            
+            <p>We look forward to seeing you there!</p>
+            
+            <p>If you have any questions, please don't hesitate to contact us at {{Email}} or call {{Phone}}.</p>
+            
+            <p>Warm regards,<br>
+            <strong>{{Company}} Event Team</strong></p>
+        </div>
+        
+        <div class="footer">
+            <p>{{Company}}</p>
+            <p>{{Address}} | {{City}}, {{State}} {{ZIP}}</p>
+            <p>Email: {{Email}} | Phone: {{Phone}}</p>
+            <p><a href="#">View Online</a> | <a href="#">Update Preferences</a></p>
+        </div>
+    </div>
+</body>
+</html>

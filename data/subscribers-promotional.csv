@@ -1,0 +1,6 @@
+Email,FirstName,LastName,Company,City,State,ZIP,Address,Phone,WebsiteURL,PromoCode,Discount,ExpiryDate
+sarah.johnson@example.com,Sarah,Johnson,MegaStore,Chicago,IL,60601,100 Michigan Ave,555-0101,https://example.com,SAVE25,25,December 31 2025
+robert.lee@example.com,Robert,Lee,ShopMart,Boston,MA,02101,200 Boylston St,555-0102,https://example.com,SAVE30,30,December 31 2025
+lisa.martinez@example.com,Lisa,Martinez,BuyMore,Denver,CO,80201,300 17th St,555-0103,https://example.com,SAVE20,20,December 31 2025
+james.garcia@example.com,James,Garcia,DealZone,Miami,FL,33101,400 Biscayne Blvd,555-0104,https://example.com,SAVE35,35,December 31 2025
+maria.rodriguez@example.com,Maria,Rodriguez,ValueShop,Portland,OR,97201,500 SW 5th Ave,555-0105,https://example.com,SAVE25,25,December 31 2025
