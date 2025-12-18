@@ -21,7 +21,7 @@ Dengan Thunderbird:
 | template-1.html  | Newsletter Template ke-1  |
 | template-2.html  | Newsletter Template ke-3  |
 | template-3.html  | Newsletter Template ke-3  |
-| template-with-content.htnl | Contoh Newsletter dengan konten |
+| template-with-content.html | Contoh Newsletter dengan konten |
 
 ## 📝 Catatan
 - Template menggunakan HTML sederhana
