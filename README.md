@@ -13,7 +13,7 @@ Jika dibandingkan dengan Microsoft Outlook:
 
 Dengan Thunderbird:
 - Aplikasi gratis dan open source
-- Mail merge bisa menggunakan file CSV, Excel (.xlsx), JSON, dan Adress Book)
+- Mail merge bisa menggunakan file CSV, Excel (.xlsx), JSON, dan Address Book}
 
 ## 🧱 Template Overview
 | File         | Keterangan            |
@@ -21,7 +21,7 @@ Dengan Thunderbird:
 | template-1.html  | Newsletter Template ke-1  |
 | template-2.html  | Newsletter Template ke-3  |
 | template-3.html  | Newsletter Template ke-3  |
-| template-with-content.htnl | Newsletter dengan konten |
+| template-with-content.htnl | Contoh Newsletter dengan konten |
 
 ## 📝 Catatan
 - Template menggunakan HTML sederhana
