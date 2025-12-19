@@ -1,6 +1,6 @@
 # How to Do Email Blasting using Thunderbird
 
-## 🧩 Tools yang Dibutuhkan
+## Tools yang Dibutuhkan
 
 1. **Mozilla Thunderbird** (gratis)
 2. **Mail Merge Add-on** untuk Thunderbird
@@ -9,7 +9,7 @@
 
 ---
 
-## 🔌 Install Mail Merge Add-on
+## Install Mail Merge Add-on
 
 1. Buka Mozilla Thunderbird
 2. Masuk ke menu **Add-ons and Themes**
@@ -19,7 +19,7 @@
 
 ---
 
-## 📄 Menyiapkan Data Penerima (CSV)
+## Menyiapkan Data Penerima (CSV)
 
 Buat file CSV sederhana, contoh: `contacts.csv`
 
@@ -33,7 +33,7 @@ Nama kolom ini nantinya akan digunakan untuk personalisasi email.
 
 ---
 
-## ✉️ Menyiapkan Email Template
+## Menyiapkan Email Template
 
 1. Buka salah satu file template HTML
 2. Salin seluruh isi HTML
@@ -60,7 +60,7 @@ Terima kasih telah menjadi bagian dari {{company}}.
 
 ---
 
-## 🚀 Melakukan Email Blasting
+## Melakukan Email Blasting
 
 1. Setelah email siap, **jangan langsung kirim**
 2. Klik menu **Mail Merge** di bagian kanan atas
