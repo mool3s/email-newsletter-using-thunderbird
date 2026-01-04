@@ -1,27 +1,24 @@
-# How to Do Email Blasting using Thunderbird
+# 🇮🇩 Cara Email Blasting dengan Thunderbird
 
-## Tools yang Dibutuhkan
+Panduan singkat menggunakan Mozilla Thunderbird + Mail Merge untuk kirim massal dengan personalisasi.
 
-1. **Mozilla Thunderbird** (gratis)
-2. **Mail Merge Add-on** untuk Thunderbird
-3. File **CSV** berisi daftar penerima
-4. Template email **HTML** (seperti yang ada di repository ini)
-
----
-
-## Install Mail Merge Add-on
-
-1. Buka Mozilla Thunderbird
-2. Masuk ke menu **Add-ons and Themes**
-3. Cari **Mail Merge**
-4. Install add-on tersebut
-5. Restart Thunderbird
+## Alat yang Dibutuhkan
+1. Mozilla Thunderbird (gratis) – [unduh di sini][thunderbird]
+2. Add-on Mail Merge untuk Thunderbird
+3. File CSV berisi penerima
+4. Template email HTML (tersedia di repo ini)
 
 ---
 
-## Menyiapkan Data Penerima (CSV)
+## Install Mail Merge
+1. Buka Thunderbird → **Add-ons and Themes**
+2. Cari **Mail Merge**
+3. Install, lalu restart Thunderbird
 
-Buat file CSV sederhana, contoh: `contacts.csv`
+---
+
+## Siapkan Data Penerima (CSV)
+Buat file, misal `contacts.csv`:
 
 ```csv
 email,name,company
@@ -29,28 +26,25 @@ john@example.com,John Doe,Example Inc
 jane@example.com,Jane Smith,Sample Ltd
 ```
 
-Nama kolom ini nantinya akan digunakan untuk personalisasi email.
+Kolom ini dipakai untuk personalisasi di template.
 
 ---
 
-## Menyiapkan Email Template
-
-1. Buka salah satu file template HTML
+## Siapkan Email Template
+1. Buka salah satu file HTML template
 2. Salin seluruh isi HTML
-3. Buka **Write / Tulis Email Baru** di Thunderbird
-4. Paste HTML ke body email
-5. Sesuaikan konten jika diperlukan
+3. Di Thunderbird, **Write / Tulis Email Baru** → paste ke body
+4. Sesuaikan konten jika perlu
 
 ### Contoh Personalisasi
-
-Gunakan format variabel dari Mail Merge:
+Gunakan placeholder Mail Merge:
 
 ```
 {{name}}
 {{company}}
 ```
 
-Contoh penggunaan di email:
+Contoh di email:
 
 ```
 Halo {{name}},
@@ -60,17 +54,84 @@ Terima kasih telah menjadi bagian dari {{company}}.
 
 ---
 
-## Melakukan Email Blasting
-
-1. Setelah email siap, **jangan langsung kirim**
-2. Klik menu **Mail Merge** di bagian kanan atas
-3. Atur konfigurasi:
-
-   * Source: **CSV**
-   * Attachments: Kosongkan
-   * Deliver Mode: **Send Later** (Lebih baik untuk "Send Later" untuk mencegah bug
-   * Klik "Send" kemudian "Start"
-4. Kemudian untuk mengirim, ke Local Folder > Outbox (Klik kanan) > Send Unsent Messagess
-
+## Kirim Email Blasting
+1. Setelah email siap, **jangan langsung kirim**.
+2. Klik **Mail Merge** (kanan atas).
+3. Setel konfigurasi:
+   - Source: **CSV**
+   - Attachments: kosong
+   - Deliver Mode: **Send Later** (lebih aman)
+   - Klik **Send** lalu **Start**
+4. Untuk benar-benar mengirim: Local Folders → Outbox (klik kanan) → **Send Unsent Messages**
 
 ---
+
+# 🇬🇧 How to Do Email Blasting with Thunderbird
+
+Quick guide for Mozilla Thunderbird + Mail Merge to send personalized bulk emails.
+
+## Required Tools
+1. Mozilla Thunderbird (free) – [download here][thunderbird]
+2. Mail Merge add-on for Thunderbird
+3. CSV file with recipients
+4. HTML email template (from this repo)
+
+---
+
+## Install Mail Merge
+1. Open Thunderbird → **Add-ons and Themes**
+2. Search **Mail Merge**
+3. Install, then restart Thunderbird
+
+---
+
+## Prepare Recipient Data (CSV)
+Create a file, e.g. `contacts.csv`:
+
+```csv
+email,name,company
+john@example.com,John Doe,Example Inc
+jane@example.com,Jane Smith,Sample Ltd
+```
+
+These columns become personalization placeholders in the template.
+
+---
+
+## Prepare the Email Template
+1. Open any HTML template file
+2. Copy all HTML content
+3. In Thunderbird, **Write New Email** → paste into the body
+4. Adjust content as needed
+
+### Personalization Example
+Use Mail Merge placeholders:
+
+```
+{{name}}
+{{company}}
+```
+
+Example in the email:
+
+```
+Hi {{name}},
+
+Thanks for being part of {{company}}.
+```
+
+---
+
+## Send the Blast
+1. When ready, **do not send directly**.
+2. Click **Mail Merge** (top right).
+3. Configure:
+   - Source: **CSV**
+   - Attachments: none
+   - Deliver Mode: **Send Later** (safer)
+   - Click **Send** then **Start**
+4. To dispatch: Local Folders → Outbox (right-click) → **Send Unsent Messages**
+
+---
+
+[thunderbird]: https://www.thunderbird.net/
